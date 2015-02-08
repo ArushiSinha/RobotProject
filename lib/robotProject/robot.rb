@@ -10,6 +10,10 @@ class Robot
 		@directions = ["NORTH","EAST","SOUTH","WEST"]
 	end
 
+	def set_position(position)
+   	  @position = position 
+    end
+
 	def move
 
 		if @position[2] == "EAST"
@@ -53,11 +57,6 @@ class Robot
 		  
        end
    end
-
-   def set_position(position)
-   	@position = position 
-   end
-
 
 end
 

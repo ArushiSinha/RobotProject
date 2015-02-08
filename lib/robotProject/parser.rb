@@ -1,9 +1,13 @@
 class Parser
 
    def initialize
-        @robot = Robot.new(0, 0, "EAST")
-    
+    @robot = Robot.new(0, 0, "EAST")
+
     end
+
+
+    
+    
 
   
 
@@ -41,11 +45,12 @@ class Parser
      	$i = $i + 1
      end
  
-    #puts @robot.return_position
-    return @cmd
+   # puts @robot.position
+    return @robot.position
     
    end
 
 
    
 end
+
