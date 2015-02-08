@@ -1,10 +1,10 @@
 {
   "RSpec": {
     "coverage": {
-      "C:/Users/arushi pc/Desktop/TestRepeat/lib/robotProject.rb": [
+      "C:/Users/arushi pc/Desktop/RobotRepeat/lib/robotProject.rb": [
         1
       ],
-      "C:/Users/arushi pc/Desktop/TestRepeat/lib/robotProject/robot.rb": [
+      "C:/Users/arushi pc/Desktop/RobotRepeat/lib/robotProject/robot.rb": [
         1,
         null,
         1,
@@ -31,50 +31,9 @@
         null,
         1,
         null,
-        null,
-        1,
-        null,
-        1,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        1,
-        null,
-        1,
-        2,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1
+        null
       ]
     },
-    "timestamp": 1423207990
+    "timestamp": 1423419980
   }
 }
