@@ -8,4 +8,13 @@ describe 'robot' do
   end
 
 
+  it 'should turn left' do
+  expect(robot1.left).to eq([1, 3, "WEST"])
+  end
+
+  it 'should turn right' do
+    expect(robot1.right).to eq([1, 3, "EAST"])
+  end
+
+
 end

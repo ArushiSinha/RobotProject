@@ -24,4 +24,38 @@ class Robot
 
 		return @position
 	end
+
+	def right
+
+		size = @directions.length
+
+		for i in 0 .. size
+			if @directions[i] == @position[2] 
+				i = (i+1)%size
+				puts i
+				@position[2]  = @directions[i]
+				return @position
+		    end
+		end
+
+	end
+
+	def left
+
+		size = @directions.length
+
+		for i in 0 .. size
+			if @directions[i] == @position[2] 
+				
+				i = (i-1)%size
+			  @position[2]  = @directions[i]
+				return @position
+		  end
+		  
+       end
+   end
 end
+
+
+
+ 
