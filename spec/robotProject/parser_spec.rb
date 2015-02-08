@@ -10,7 +10,7 @@ describe 'parser' do
   end
 
   it 'should parse commands' do
-    expect(parser2.parse_command("MOVE RIGHT MOVE LEFT")).to eq(["MOVE", "RIGHT", "MOVE", "LEFT"])
+    expect(parser2.parse_command("MOVE RIGHT MOVE LEFT")).to eq([1, -1, "EAST"])
   end
 
 end
