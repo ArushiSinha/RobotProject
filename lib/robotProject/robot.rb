@@ -32,7 +32,6 @@ class Robot
 		for i in 0 .. size
 			if @directions[i] == @position[2] 
 				i = (i+1)%size
-				puts i
 				@position[2]  = @directions[i]
 				return @position
 		    end
@@ -54,6 +53,12 @@ class Robot
 		  
        end
    end
+
+   def set_position(position)
+   	@position = position 
+   end
+
+
 end
 
 

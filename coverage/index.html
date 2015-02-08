@@ -14,27 +14,27 @@
       <img src="./assets/0.8.0/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2015-02-09T00:36:18+05:30">2015-02-09T00:36:18+05:30</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2015-02-09T01:26:46+05:30">2015-02-09T01:26:46+05:30</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="green">90.32%</span></span>
+    (<span class="covered_percent"><span class="green">98.39%</span></span>
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.19
+         1.79
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
-    <b>2</b> files in total.
-    <b>31</b> relevant lines. 
-    <span class="green"><b>28</b> lines covered</span> and
-    <span class="red"><b>3</b> lines missed </span>
+    <b>4</b> files in total.
+    <b>62</b> relevant lines. 
+    <span class="green"><b>61</b> lines covered</span> and
+    <span class="red"><b>1</b> lines missed </span>
   </div>
   <table class="file_list">
     <thead>
@@ -53,21 +53,41 @@
       <tr>
         <td class="strong"><a href="#4fa9f018ba50e53d7b5eb3e0dd54f3be7658fe2a" class="src_link" title="lib/robotProject.rb">lib/robotProject.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>1</td>
-        <td>1</td>
-        <td>1</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
         <td>0</td>
         <td>1.0</td>
       </tr>
       
       <tr>
+        <td class="strong"><a href="#e863fa2a34e594d3ecfb1e5c3a8b25a00e06fd35" class="src_link" title="lib/robotProject/parser.rb">lib/robotProject/parser.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>51</td>
+        <td>19</td>
+        <td>19</td>
+        <td>0</td>
+        <td>1.4</td>
+      </tr>
+      
+      <tr>
         <td class="strong"><a href="#291d4129427ebf046a8e1a46346be1a075cd268f" class="src_link" title="lib/robotProject/robot.rb">lib/robotProject/robot.rb</a></td>
-        <td class="yellow strong">90.0 %</td>
-        <td>61</td>
-        <td>30</td>
-        <td>27</td>
-        <td>3</td>
-        <td>1.2</td>
+        <td class="green strong">96.88 %</td>
+        <td>67</td>
+        <td>32</td>
+        <td>31</td>
+        <td>1</td>
+        <td>2.2</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#9603ecc590288ada50633a01b39e2b12d25ef71a" class="src_link" title="spec/robotProject/robot_spec.rb">spec/robotProject/robot_spec.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>20</td>
+        <td>9</td>
+        <td>9</td>
+        <td>0</td>
+        <td>1.3</td>
       </tr>
       
     </tbody>
@@ -91,8 +111,8 @@
     <h3>lib/robotProject.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>1</b> relevant lines. 
-      <span class="green"><b>1</b> lines covered</span> and
+      <b>2</b> relevant lines. 
+      <span class="green"><b>2</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -106,6 +126,336 @@
           <code class="ruby">require &#39;robotProject/robot&#39;</code>
         </li>
       
+        <li class="covered" data-hits="1" data-linenumber="2">
+          <span class="hits">1</span>
+          
+          <code class="ruby">require &#39;robotProject/parser&#39;</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+      
+        <div class="source_table" id="e863fa2a34e594d3ecfb1e5c3a8b25a00e06fd35">
+  <div class="header">
+    <h3>lib/robotProject/parser.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>19</b> relevant lines. 
+      <span class="green"><b>19</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">class Parser</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">   def initialize</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="4">
+          <span class="hits">2</span>
+          
+          <code class="ruby">        @robot = Robot.new(0, 0, &quot;EAST&quot;)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="5">
+          
+          
+          <code class="ruby">    </code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="6">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="7">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="8">
+          
+          
+          <code class="ruby">  </code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="9">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="10">
+          <span class="hits">1</span>
+          
+          <code class="ruby">   def parse_position(command)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="11">
+          
+          
+          <code class="ruby">	</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="12">
+          <span class="hits">1</span>
+          
+          <code class="ruby">	x_coord, y_coord, direction = command.split(&quot; &quot;)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="13">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    @pos =  [x_coord.to_i, y_coord.to_i, direction]</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="14">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    @robot.set_position(@pos)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="15">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    return @robot.position </code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="16">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="17">
+          
+          
+          <code class="ruby">    #@robot.get_position(x_coord, y_coord, direction)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="18">
+          
+          
+          <code class="ruby">  </code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="19">
+          
+          
+          <code class="ruby">    </code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="20">
+          
+          
+          <code class="ruby">    #puts @robot.return_position</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="21">
+          
+          
+          <code class="ruby">    #return @robot.return_position</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="22">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="23">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="24">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="25">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="26">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="27">
+          <span class="hits">1</span>
+          
+          <code class="ruby">	def parse_command(command)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="28">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    @cmd = command.split(&quot; &quot;)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="29">
+          
+          
+          <code class="ruby">    #puts @cmd</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="30">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    size = @cmd.length</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="31">
+          
+          
+          <code class="ruby">    #puts size</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="32">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    $i = 0</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="33">
+          <span class="hits">1</span>
+          
+          <code class="ruby">     while $i &lt; size do</code>
+        </li>
+      
+        <li class="covered" data-hits="4" data-linenumber="34">
+          <span class="hits">4</span>
+          
+          <code class="ruby">     	if @cmd[$i] == &quot;MOVE&quot;</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="35">
+          <span class="hits">2</span>
+          
+          <code class="ruby">     	   @robot.move</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="36">
+          
+          
+          <code class="ruby">        elsif @cmd[$i] == &quot;LEFT&quot;</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="37">
+          <span class="hits">1</span>
+          
+          <code class="ruby">     	   @robot.left</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="38">
+          
+          
+          <code class="ruby">     	elsif @cmd[$i] == &quot;RIGHT&quot;</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="39">
+          <span class="hits">1</span>
+          
+          <code class="ruby">     	   @robot.right</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="40">
+          
+          
+          <code class="ruby">     	end</code>
+        </li>
+      
+        <li class="covered" data-hits="4" data-linenumber="41">
+          <span class="hits">4</span>
+          
+          <code class="ruby">     	$i = $i + 1</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="42">
+          
+          
+          <code class="ruby">     end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="43">
+          
+          
+          <code class="ruby"> </code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="44">
+          
+          
+          <code class="ruby">    #puts @robot.return_position</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="45">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    return @cmd</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="46">
+          
+          
+          <code class="ruby">    </code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="47">
+          
+          
+          <code class="ruby">   end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="48">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="49">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="50">
+          
+          
+          <code class="ruby">   </code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="51">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
     </ol>
   </pre>
 </div>
@@ -113,11 +463,11 @@
         <div class="source_table" id="291d4129427ebf046a8e1a46346be1a075cd268f">
   <div class="header">
     <h3>lib/robotProject/robot.rb</h3>
-    <h4><span class="yellow">90.0 %</span> covered</h4>
+    <h4><span class="green">96.88 %</span> covered</h4>
     <div>
-      <b>30</b> relevant lines. 
-      <span class="green"><b>27</b> lines covered</span> and
-      <span class="red"><b>3</b> lines missed.</span>
+      <b>32</b> relevant lines. 
+      <span class="green"><b>31</b> lines covered</span> and
+      <span class="red"><b>1</b> lines missed.</span>
     </div>
   </div>
   
@@ -154,32 +504,32 @@
           <code class="ruby">	def initialize(x_coord, y_coord, orientation)</code>
         </li>
       
-        <li class="covered" data-hits="3" data-linenumber="6">
-          <span class="hits">3</span>
+        <li class="covered" data-hits="5" data-linenumber="6">
+          <span class="hits">5</span>
           
           <code class="ruby">		@position = []</code>
         </li>
       
-        <li class="covered" data-hits="3" data-linenumber="7">
-          <span class="hits">3</span>
+        <li class="covered" data-hits="5" data-linenumber="7">
+          <span class="hits">5</span>
           
           <code class="ruby">		@position[0] = x_coord.to_i</code>
         </li>
       
-        <li class="covered" data-hits="3" data-linenumber="8">
-          <span class="hits">3</span>
+        <li class="covered" data-hits="5" data-linenumber="8">
+          <span class="hits">5</span>
           
           <code class="ruby">		@position[1] = y_coord.to_i</code>
         </li>
       
-        <li class="covered" data-hits="3" data-linenumber="9">
-          <span class="hits">3</span>
+        <li class="covered" data-hits="5" data-linenumber="9">
+          <span class="hits">5</span>
           
           <code class="ruby">		@position[2] = orientation</code>
         </li>
       
-        <li class="covered" data-hits="3" data-linenumber="10">
-          <span class="hits">3</span>
+        <li class="covered" data-hits="5" data-linenumber="10">
+          <span class="hits">5</span>
           
           <code class="ruby">		@directions = [&quot;NORTH&quot;,&quot;EAST&quot;,&quot;SOUTH&quot;,&quot;WEST&quot;]</code>
         </li>
@@ -208,14 +558,14 @@
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="15">
-          <span class="hits">1</span>
+        <li class="covered" data-hits="3" data-linenumber="15">
+          <span class="hits">3</span>
           
           <code class="ruby">		if @position[2] == &quot;EAST&quot;</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="16">
-          
+        <li class="covered" data-hits="1" data-linenumber="16">
+          <span class="hits">1</span>
           
           <code class="ruby">			@position[0] += 1</code>
         </li>
@@ -250,8 +600,8 @@
           <code class="ruby">		elsif @position[2] == &quot;SOUTH&quot;</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="22">
-          
+        <li class="covered" data-hits="1" data-linenumber="22">
+          <span class="hits">1</span>
           
           <code class="ruby">			@position[1] -= 1</code>
         </li>
@@ -268,8 +618,8 @@
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="25">
-          <span class="hits">1</span>
+        <li class="covered" data-hits="3" data-linenumber="25">
+          <span class="hits">3</span>
           
           <code class="ruby">		return @position</code>
         </li>
@@ -298,8 +648,8 @@
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="30">
-          <span class="hits">1</span>
+        <li class="covered" data-hits="2" data-linenumber="30">
+          <span class="hits">2</span>
           
           <code class="ruby">		size = @directions.length</code>
         </li>
@@ -310,38 +660,38 @@
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="32">
-          <span class="hits">1</span>
+        <li class="covered" data-hits="2" data-linenumber="32">
+          <span class="hits">2</span>
           
           <code class="ruby">		for i in 0 .. size</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="33">
-          <span class="hits">1</span>
+        <li class="covered" data-hits="3" data-linenumber="33">
+          <span class="hits">3</span>
           
           <code class="ruby">			if @directions[i] == @position[2] </code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="34">
-          <span class="hits">1</span>
+        <li class="covered" data-hits="2" data-linenumber="34">
+          <span class="hits">2</span>
           
           <code class="ruby">				i = (i+1)%size</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="35">
-          <span class="hits">1</span>
+        <li class="covered" data-hits="2" data-linenumber="35">
+          <span class="hits">2</span>
           
           <code class="ruby">				puts i</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="36">
-          <span class="hits">1</span>
+        <li class="covered" data-hits="2" data-linenumber="36">
+          <span class="hits">2</span>
           
           <code class="ruby">				@position[2]  = @directions[i]</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="37">
-          <span class="hits">1</span>
+        <li class="covered" data-hits="2" data-linenumber="37">
+          <span class="hits">2</span>
           
           <code class="ruby">				return @position</code>
         </li>
@@ -388,8 +738,8 @@
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="45">
-          <span class="hits">1</span>
+        <li class="covered" data-hits="2" data-linenumber="45">
+          <span class="hits">2</span>
           
           <code class="ruby">		size = @directions.length</code>
         </li>
@@ -400,14 +750,14 @@
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="47">
-          <span class="hits">1</span>
+        <li class="covered" data-hits="2" data-linenumber="47">
+          <span class="hits">2</span>
           
           <code class="ruby">		for i in 0 .. size</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="48">
-          <span class="hits">1</span>
+        <li class="covered" data-hits="4" data-linenumber="48">
+          <span class="hits">4</span>
           
           <code class="ruby">			if @directions[i] == @position[2] </code>
         </li>
@@ -418,20 +768,20 @@
           <code class="ruby">				</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="50">
-          <span class="hits">1</span>
+        <li class="covered" data-hits="2" data-linenumber="50">
+          <span class="hits">2</span>
           
           <code class="ruby">				i = (i-1)%size</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="51">
-          <span class="hits">1</span>
+        <li class="covered" data-hits="2" data-linenumber="51">
+          <span class="hits">2</span>
           
           <code class="ruby">			  @position[2]  = @directions[i]</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="52">
-          <span class="hits">1</span>
+        <li class="covered" data-hits="2" data-linenumber="52">
+          <span class="hits">2</span>
           
           <code class="ruby">				return @position</code>
         </li>
@@ -463,31 +813,205 @@
         <li class="never" data-hits="" data-linenumber="57">
           
           
-          <code class="ruby">end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="58">
-          
-          
           <code class="ruby"></code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="59">
+        <li class="covered" data-hits="1" data-linenumber="58">
+          <span class="hits">1</span>
           
+          <code class="ruby">   def set_position(position)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="59">
+          <span class="hits">1</span>
           
-          <code class="ruby"></code>
+          <code class="ruby">   	@position = position </code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="60">
           
           
-          <code class="ruby"></code>
+          <code class="ruby">   end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="61">
           
           
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="62">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="63">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="64">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="65">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="66">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="67">
+          
+          
           <code class="ruby"> </code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+      
+        <div class="source_table" id="9603ecc590288ada50633a01b39e2b12d25ef71a">
+  <div class="header">
+    <h3>spec/robotProject/robot_spec.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>9</b> relevant lines. 
+      <span class="green"><b>9</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">require &#39;spec_helper&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">describe &#39;robot&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="4" data-linenumber="4">
+          <span class="hits">4</span>
+          
+          <code class="ruby">   let(:robot1){Robot.new(1, 3, &quot;NORTH&quot;)}</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="5">
+          
+          
+          <code class="ruby"> </code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="6">
+          <span class="hits">1</span>
+          
+          <code class="ruby"> it &#39;should move&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="7">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    expect(robot1.move).to eq([1, 4, &quot;NORTH&quot;])</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="8">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="9">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="10">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="11">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  it &#39;should turn left&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="12">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  expect(robot1.left).to eq([1, 3, &quot;WEST&quot;])</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="13">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="14">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="15">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  it &#39;should turn right&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="16">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    expect(robot1.right).to eq([1, 3, &quot;EAST&quot;])</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="17">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="18">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="19">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="20">
+          
+          
+          <code class="ruby">end</code>
         </li>
       
     </ol>
